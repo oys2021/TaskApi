@@ -40,32 +40,34 @@ A simple Django REST API for user authentication and task management, featuring:
 ```bash
 git clone https://github.com/oys2021/TaskApi.git
 cd TaskApi
+```
 
 
 2. **Create & Activate a Virtual Environment**
 
 ```bash
 python -m venv venv
-venv\Scripts\activate 
+venv\Scripts\activate
+```
 
-2. **Create & Activate a Virtual Environment**
 
-```bash
-python -m venv venv
-venv\Scripts\activate 
 
 3.**Install Dependencies**
+```bash
 pip install -r requirements.txt
+```
 
 4.**Apply Migrations**
-
+```bash
 python manage.py migrate
+```
 
-
-📘 Swagger Docs
+5. 📘 **Swagger Docs**
 Visit http://localhost:8000/docs/ for interactive Swagger documentation.
 
 To enable Swagger, make sure you've installed and configured drf-yasg.
 
-5. **Running Tests**
+6. **Running Tests**
+```bash
 pytest
+```
